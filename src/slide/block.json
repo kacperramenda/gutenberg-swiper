@@ -1,0 +1,21 @@
+{
+  "$schema": "https://schemas.wp.org/trunk/block.json",
+  "apiVersion": 3,
+  "name": "gutenberg-swiper/slide",
+  "version": "1.0.0",
+  "title": "Slajd",
+  "category": "media",
+  "icon": "format-image",
+  "parent": [ "gutenberg-swiper/container" ],
+  "description": "Pojedynczy slajd.",
+  "textdomain": "gutenberg-swiper",
+  "attributes": {
+    "imageUrl": { "type": "string", "default": "" },
+    "imageId": { "type": "number", "default": 0 },
+    "heading": { "type": "string", "default": "" },
+    "description": { "type": "string", "default": "" },
+    "ctaText": { "type": "string", "default": "Więcej" },
+    "ctaUrl": { "type": "string", "default": "#" }
+  },
+  "editorScript": "file:../../build/index.js"
+}
