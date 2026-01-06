@@ -15,7 +15,7 @@
     "heading": { "type": "string", "default": "" },
     "description": { "type": "string", "default": "" },
     "ctaText": { "type": "string", "default": "Więcej" },
-    "ctaUrl": { "type": "string", "default": "#" }
+    "ctaLink": { "type": "string", "default": "#" }
   },
-  "editorScript": "file:../../build/index.js"
+  "editorScript": "gutenberg-slider-editor-script"
 }

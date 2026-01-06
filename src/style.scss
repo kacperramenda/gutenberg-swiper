@@ -1,0 +1,14 @@
+@use "./style/slide";
+@use "./style/swiper";
+@use "./style/btn";
+@use "./style/image";
+@use 'swiper/css';
+@use 'swiper/css/navigation';
+@use 'swiper/css/pagination';
+@use 'swiper/css/effect-fade';
+
+.slider__editor-label {
+  font-size: 24px;
+  font-weight: bold;
+}
+

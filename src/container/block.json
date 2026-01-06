@@ -15,7 +15,7 @@
     "effect": { "type": "string", "default": "slide" },
     "loop": { "type": "boolean", "default": true }
   },
-  "editorScript": "file:../../build/index.js",
-  "viewScript": "file:../../build/view.js",
-  "style": "file:../../build/style.css"
+  "editorScript": "gutenberg-slider-editor-script",
+  "style": "gutenberg-slider-style",
+  "viewScript": "file:../../build/view.js"
 }

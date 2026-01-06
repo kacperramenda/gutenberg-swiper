@@ -3,10 +3,22 @@ import react from '@vitejs/plugin-react';
 import path from 'path';
 
 export default defineConfig({
-    plugins: [react()],
+    define: {
+        'process.env.NODE_ENV': JSON.stringify('production'),
+    },
+
+    plugins: [react({ jsxRuntime: 'classic' })],
+
+    esbuild: {
+        loader: "jsx",
+        include: /src\/.*\.jsx?$/,
+        exclude: [],
+    },
+
     build: {
         outDir: 'build',
         emptyOutDir: true,
+        minify: true,
         rollupOptions: {
             input: {
                 index: path.resolve(__dirname, 'src/index.js'),
@@ -14,11 +26,20 @@ export default defineConfig({
             },
             output: {
                 entryFileNames: '[name].js',
-                assetFileNames: '[name].[ext]',
+                assetFileNames: (assetInfo) => {
+                    if (assetInfo.name === 'index.css') return 'style.css';
+                    return '[name].[ext]';
+                },
+                banner: '(function() {',
+                footer: '})();',
+                // ------------------------------------------
 
                 globals: {
                     react: 'React',
                     'react-dom': 'ReactDOM',
+                    lodash: 'lodash',
+                    underscore: '_',
+                    jquery: 'jQuery',
                     '@wordpress/blocks': 'wp.blocks',
                     '@wordpress/block-editor': 'wp.blockEditor',
                     '@wordpress/components': 'wp.components',
@@ -30,10 +51,12 @@ export default defineConfig({
             external: [
                 'react',
                 'react-dom',
+                'lodash',
+                'underscore',
+                'jquery',
                 /^@wordpress\/.*$/,
             ],
         },
-        minify: true,
     },
     css: {
         preprocessorOptions: {

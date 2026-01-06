@@ -1,0 +1,12 @@
+.btn {
+  max-width: fit-content;
+  font-size: 16px;
+  padding: 5px 10px;
+  background: var(--wp-components-color-accent,var(--wp-admin-theme-color,#3858e9));
+  color: #fff;
+
+  &:hover {
+    color: #fff;
+    text-decoration: underline;
+  }
+}
