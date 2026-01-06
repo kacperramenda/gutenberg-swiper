@@ -5,7 +5,6 @@ import 'swiper/css';
 import 'swiper/css/navigation';
 import 'swiper/css/pagination';
 import 'swiper/css/effect-fade';
-console.log('--- SWIPER VIEW.JS: Start ---');
 document.addEventListener('DOMContentLoaded', () => {
     const sliders = document.querySelectorAll('.wp-block-gutenberg-swiper-container.swiper')
     sliders.forEach(slider => {

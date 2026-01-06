@@ -40,7 +40,7 @@ export default function edit({attributes, setAttributes}) {
                     />
 
                     <ToggleControl
-                        label="Zapetlenie slidera"
+                        label="Zapętlanie slidera"
                         checked={loop}
                         onChange={(val) => setAttributes({loop: val})}
                     />

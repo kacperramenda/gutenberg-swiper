@@ -14,7 +14,7 @@
     "imageId": { "type": "number", "default": 0 },
     "heading": { "type": "string", "default": "" },
     "description": { "type": "string", "default": "" },
-    "ctaText": { "type": "string", "default": "Więcej" },
+    "ctaText": { "type": "string", "default": "" },
     "ctaLink": { "type": "string", "default": "#" }
   },
   "editorScript": "gutenberg-slider-editor-script"
