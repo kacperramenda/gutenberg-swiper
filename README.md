@@ -36,6 +36,11 @@ Blok jest renderowany statycznie (save), ponieważ treść slidera jest definiow
 ## Wydajność
 Skrypty są ładowane tylko i wyłącznie w miejscach, gdzie blok jest renderowany, dzięki wykorzystaniu `viewScript`: `"file:../../build/view.js"` w `block.json` rodzica (kontenera).
 
+## Inne informacje
+- Konfiguracja swipera jest przekazywana przez atrybut data-swiper-config w formacie JSON, a następnie są parsowane.
+- Plugin bez problemu obsługuje wiele swiperów na tej samej stronie
+- Swiper Slider akceptuje tylko jeden blok "Slajd" dzięki relacji child-parent 
+
 ## Instrukcja dodania slidera na stronę
 
 1. Dodaj blok **Swiper slider**.
