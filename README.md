@@ -44,6 +44,26 @@ Skrypty są ładowane tylko i wyłącznie w miejscach, gdzie blok jest renderowa
 ## Instrukcja dodania slidera na stronę
 
 1. Dodaj blok **Swiper slider**.
+   <img width="343" height="357" alt="image" src="https://github.com/user-attachments/assets/b300bb85-896d-46e0-a473-2226c379ef71" />
+
+
+2. Wybierz odpowiednią dla Ciebie konfigurację swipera w panelu po prawej stronie.
+![img.png](img.png)
+
+3. Dodaj slajd do swipera (blok "slajd" dostępny tylko dla bloku rodzica Swiper Slider)
+![img_1.png](img_1.png)
+
+4. Uzupełnij treść slajdu i dodaj kolejne
+![img_2.png](img_2.png)
+
+5. Zapisz. Ostylowany swiper teraz będzie się znajdował na twojej stronie.
+![img_3.png](img_3.png)
+
+6. W celu zmiany kolejności slajdów, wystarczy zamienić ich kolejność w edytorze.
+
+## **** DEPRECTADED **** Instrukcja dodania slidera na stronę 
+
+1. Dodaj blok **Swiper slider**.
 <img width="343" height="357" alt="image" src="https://github.com/user-attachments/assets/b300bb85-896d-46e0-a473-2226c379ef71" />
 
 2. Dodaj dowolną ilość slajdów, uzupełnij ich treść oraz wybierz odpowiednią dla Ciebie konfigurację swipera w panelu po prawej stronie.
