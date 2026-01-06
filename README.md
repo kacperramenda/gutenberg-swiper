@@ -5,7 +5,7 @@ Wtyczka została wykonana w następującym stacku:
 - SCSS
 - Swiper.js
 
-W nawiązaniu do naszej dzisiejszej rozmowy postanowiłem zaimplementować Vite oraz do stylowania użyłem SCSS wg konwencji nazewniczej BEM.
+W nawiązaniu do naszej dzisiejszej rozmowy, w której mówiłem że nie miałem nigdy okazji implementować Vite postanowiłem użyć go do buildowania. Do stylowania użyłem SCSS wg konwencji nazewniczej BEM. Zdecydowałem się na bibliotekę Swiper.js ponieważ jest aktualnie najpopularniejszym rozwiązaniem tego typu, a zarazem oferuje nowoczesne technologie (brak JQuery) oraz modułową architekturę która pozwala na importowanie tylko tych elementów z których korzystamy co sprawia że wtyczka nie jest "ciężka". Kolejnym atutem dla swiper.js jest doskonała obsługa urządzeń mobilnych (np. gesty).
 
 ## Struktura slidera
 Slajdy składają się wg założeń z następujących elementów:
