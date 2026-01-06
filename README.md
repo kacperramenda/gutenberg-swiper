@@ -39,7 +39,7 @@ Skrypty są ładowane tylko i wyłącznie w miejscach, gdzie blok jest renderowa
 ## Inne informacje
 - Konfiguracja swipera jest przekazywana przez atrybut data-swiper-config w formacie JSON, a następnie są parsowane.
 - Plugin bez problemu obsługuje wiele swiperów na tej samej stronie
-- Swiper Slider akceptuje tylko jeden blok "Slajd" dzięki relacji child-parent 
+- Swiper Slider akceptuje tylko jeden blok "Slajd" dzięki relacji child-parent
 
 ## Instrukcja dodania slidera na stronę
 

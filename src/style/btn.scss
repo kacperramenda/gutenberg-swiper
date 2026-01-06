@@ -9,4 +9,17 @@
     color: #fff;
     text-decoration: underline;
   }
+
+  &__cta {
+    padding: 12px 16px;
+    background: #fff;
+    border-radius: 12px;
+    margin: 0 auto;
+    color: #000;
+
+    &:hover {
+      color: #000;
+      text-decoration: underline;
+    }
+  }
 }
