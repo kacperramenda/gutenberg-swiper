@@ -32,7 +32,6 @@ export default defineConfig({
                 },
                 banner: '(function() {',
                 footer: '})();',
-                // ------------------------------------------
 
                 globals: {
                     react: 'React',
